@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "name": "John Doe",
+  "appointments": [
+    {
+      "id": 1,
+      "starts_at": "2019-01-01 09:00",
+      "duration": 15,
+      "status": "confirmed",
+      "confirmed_at": "2019-01-01 08:45",
+      "canceled_at": null,
+      "provider": {
+        "id": 1,
+        "name": "Dr. Smith"
+      }
+    },
+    {
+      "id": 4,
+      "starts_at": "2019-01-01 09:30",
+      "duration": 15,
+      "status": "pending",
+      "confirmed_at": null,
+      "canceled_at": null,
+      "provider": {
+        "id": 1,
+        "name": "Dr. Smith"
+      }
+    }
+  ]
+}

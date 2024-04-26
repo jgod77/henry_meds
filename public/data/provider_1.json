@@ -1,0 +1,73 @@
+{
+  "id": 1,
+  "name": "John Doe",
+  "schedule": {
+    "monday": {
+      "start": "09:00",
+      "end": "17:00"
+    },
+    "tuesday": {
+      "start": "09:00",
+      "end": "17:00"
+    },
+    "wednesday": {
+      "start": "09:00",
+      "end": "17:00"
+    },
+    "thursday": {
+      "start": "09:00",
+      "end": "15:00"
+    },
+    "friday": {
+      "start": "09:00",
+      "end": "17:00"
+    },
+    "saturday": {
+      "start": null,
+      "end": null
+    },
+    "sunday": {
+      "start": null,
+      "end": null
+    }
+  },
+  "appointments": [
+    {
+      "id": 1,
+      "starts_at": "2019-01-01 09:00",
+      "duration": 15,
+      "client": {
+        "id": 1,
+        "name": "Jane Doe"
+      },
+      "status": "confirmed",
+      "confirmed_at": "2019-01-01 08:45",
+      "canceled_at": null
+    },
+    {
+      "id": 2,
+      "starts_at": "2019-01-01 09:15",
+      "duration": 15,
+      "client": {
+        "id": 2,
+        "name": "Alice Doe"
+      },
+      "status": "canceled",
+      "confirmed_at": null,
+      "canceled_at": "2019-01-01 08:45"
+    },
+    {
+      "id": 3,
+      "starts_at": "2019-01-01 09:30",
+      "duration": 15,
+      "client": {
+        "id": 3,
+        "name": "Bob Doe"
+      },
+      "status": "pending",
+      "confirmed_at": null,
+      "canceled_at": null
+    }
+  ]
+
+}
